@@ -164,7 +164,15 @@ p{font-size: 16px!important;}
 
 
   }
+  
+  .img-mendigo{
 
+    width: 300px!important;
+    height: 300px!important;
+    align-items:center!important;
+
+
+  }
 
 
   .comentarios{
@@ -175,8 +183,4 @@ p{font-size: 16px!important;}
     grid-gap:1rem;
     padding: 10px;
 
-
-
-
-
-  }
+}
