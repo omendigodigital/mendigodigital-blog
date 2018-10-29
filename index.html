@@ -1,23 +1,119 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="pt_br" dir="ltr">
 
-<div class="home">
+<head>
+  <meta charset="utf-8">
+  <title>O Mendigo Digital</title>
 
-  <h1 class="page-heading">Posts</h1>
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mendigo.css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</head>
 
-</div>
+<body>
+
+
+
+  <div class="container-fluid" style="margin:0; padding:0;">
+
+    <header class="topo">
+    <img class="img-responsive img-thumbnail" src="img/mendigo.jpg" widht="120" height="120"alt="Mendigo Digital">
+          <div> <h1 class="">@MendigoDigital<br><small>Eu só sigo os piores! Estou num barco pirata moscou leva uma facada!</small></h1> </div>
+          <!--<div> <h1>Header 2</h1> </div>
+          <div> <h1>Header 3</h1> </div>-->
+    </header>
+
+    <nav>
+
+      <div class="menu-topo">
+
+        <div><a href="#">O Que?</a></div>
+        <div><a href="twitter.html">Twitter</a></div>
+        <div><a href="#">Xinguamentos</a></div>
+        <div><a href="#">Iguais?</a></div>
+      </div>
+
+    </nav>
+
+
+     <div class="container-fluid">
+
+    <div class="conteudo-1">
+      <p class="text-left">Este site tem como objetivo ser um desabafo desse cotidiano que vivemos e fingimos não ver no dia a dia.<br>
+      A desigualdade social, a miséria, pessoas comendo restos de lixo ,o julgamento pelo exterior, os estigmas e rótulos, a inversão de valores 'Ter e não Ser' as guerras nas comunidades da nossa cidade independente dos locais.<br>
+    Estamos anestesiados? Será que nosso lado humano está apagado? Até quando vamos aguentar essa situação?<br>Quando você passa pelas ruas do seu bairro e vê pessoas deitadas no chão pedindo comida, esses contrastes não mexem com seu interior?</p>
+
+    <blockquote class="twitter-tweet" data-lang="pt"><p lang="pt" dir="ltr">Número de brasileiros com o &#39;nome sujo&#39; rompe marca de 60 milhões, diz pesquisa (Estou nesse meio...) <a href="https://t.co/jrbyr9h6QW">https://t.co/jrbyr9h6QW</a></p>&mdash; O Mendigo Digital (@DigitalMendigo) <a href="https://twitter.com/DigitalMendigo/status/1056602116658057217?ref_src=twsrc%5Etfw">28 de outubro de 2018</a></blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="pt"><p lang="pt" dir="ltr">Oi? É isso mesmo?<a href="https://t.co/4kgvQlq0z2">https://t.co/4kgvQlq0z2</a></p>&mdash; O Mendigo Digital (@DigitalMendigo) <a href="https://twitter.com/DigitalMendigo/status/1052878322601000960?ref_src=twsrc%5Etfw">18 de outubro de 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="pt"><p lang="pt" dir="ltr">Qual a diferença de um médico viciado em morfina, um alcoólatra<br>aparentemente bem sucedido que bebe todos dos dias whisky em seu casa luxuosa e o viciado em cocaína e crack?<br>Podemos encontrar diversas diferenças mas uma coisa eles tem em comum!<br>Ambos pagaram com suas vidas.</p>&mdash; O Mendigo Digital (@DigitalMendigo) <a href="https://twitter.com/DigitalMendigo/status/1044436164579663877?ref_src=twsrc%5Etfw">25 de setembro de 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  </div>
+  <br>
+
+
+
+    </div>
+    <br>
+
+
+
+    <br>
+
+
+
+    <!--<div class="conteudo-2">
+      <h1>Tudo bem</h1>
+    </div>-->
+
+    </div>
+
+    <div class="comentarios">
+
+      <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-omendigodigital-github-io-mendigodigital.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+    </div>
+
+    <footer>
+
+    <div class="menu-topo">
+
+      <div><a href="index.html">O Que?</a></div>
+      <div><a href="https://twitter.com/DigitalMendigo" target="_blank">Twitter</a></div>
+      <div><a href="#">Xinguamentos</a></div>
+      <div><a href="#">Iguais?</a></div>
+    </div>
+
+    </footer>
+
+</body>
+
+</html>
