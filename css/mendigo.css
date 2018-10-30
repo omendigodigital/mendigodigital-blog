@@ -39,10 +39,10 @@ background-color: #fff;
     grid-template-rows:1fr;
     height:;
     align-items: center;
-    background-color:#000;
+    background-color:#fff;
     text-align: center;
     align-content: center;
-    background-image: url(../img/fundo.jpg);
+    background-image: url(../img/22.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Francois One', sans-serif;
@@ -164,7 +164,7 @@ p{font-size: 16px!important;}
 
 
   }
-  
+
   .img-mendigo{
 
     width: 300px!important;
