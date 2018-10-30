@@ -21,9 +21,10 @@ github_username:  omendigodigital
 markdown: kramdown
 
 # This will require each of these plugins automatically.
-plugins:
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-assets
-  - another-jekyll-plugin
-  - jekyll-admin
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
